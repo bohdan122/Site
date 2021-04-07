@@ -1,6 +1,6 @@
-function changeBgColor(id, color) {
+function changeBgColor(color) {
 
-    document.getElementById(id).style.background = color;
+    document.body.style.background = color;
 
  
 
