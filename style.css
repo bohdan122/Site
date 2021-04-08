@@ -401,6 +401,11 @@ a{
     font-size: 14px;
     color:#1e272e;
 }
+.content3{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media all and (max-width: 1000px){
     .ul1{
         font-size: 14px;
