@@ -356,12 +356,14 @@ a{
     display: flex;
     margin: 0 auto;
     margin-top: 10px;
+    margin-left: 10px;
 }
 
 .telegram-p2{
     display: flex;
     margin: 0 auto;
     margin-top: 5px;
+    margin-left: 10px;
     font-size: 14px;
     color:#1e272e;
 }
@@ -373,7 +375,6 @@ a{
     display: flex;
     border-radius: 8px;
     margin: 0 250px auto;
-
 }
 
 .export-p2{
@@ -382,6 +383,7 @@ a{
     margin-top: -10px;
     font-size: 14px;
     color:#1e272e;
+    margin-left: 10px;
 }
 
 .garantia{
@@ -400,11 +402,15 @@ a{
     margin-top: -10px;
     font-size: 14px;
     color:#1e272e;
+    margin-left: 10px;
 }
-.content3{
-    display: flex;
-  justify-content: center;
-  align-items: center;
+
+.export-p{
+    margin-left: 10px;
+}
+
+.garantia-p{
+    margin-left: 10px;
 }
 @media all and (max-width: 1000px){
     .ul1{
