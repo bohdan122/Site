@@ -58,6 +58,7 @@ ul li ul:hover {
 	visibility: visible;
     display: block;
     transition: 0.5s ease;
+    animation: anime 2s;
 }
 
 ul li ul li{
@@ -411,6 +412,19 @@ a{
 
 .garantia-p{
     margin-left: 10px;
+}
+@keyframes anime{
+    0%{
+        transform: scale(0.7);
+
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+ul, li:hover > ul,
+ul li ul:hover {
+    animation: anime .8s;
 }
 @media all and (max-width: 1000px){
     .ul1{
