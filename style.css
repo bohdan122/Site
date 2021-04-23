@@ -253,7 +253,13 @@ a{
  background-clip: padding-box;
  text-align: center;
  border-radius: 5px;
+ transition: all 0.7s ease;
+transform: scale(1);
 }
+
+.li2:hover{
+    transform: scale(1.2);
+       }
 
 .li3{
     display: block;
@@ -265,7 +271,13 @@ a{
     background-clip: padding-box;
     text-align: center;
     border-radius: 5px;
+    transition: all 0.7s ease;
+    transform: scale(1);
    }
+
+   .li3:hover{
+    transform: scale(1.2);
+       }
 
    .li31{
     display: block;
@@ -277,7 +289,13 @@ a{
     background-clip: padding-box;
     text-align: center;
     border-radius: 5px;
+    transition: all 0.7s ease;
+    transform: scale(1);
    }
+
+   .li31:hover{
+    transform: scale(1.2);
+       }
 
 .nav2{
     margin-top: 20px;
@@ -298,7 +316,13 @@ a{
     background-clip: padding-box;
     text-align: center;
     border-radius: 5px;
+    transition: all 0.7s ease;
+    transform: scale(1);
    }
+   .li21:hover{
+transform: scale(1.2);
+   }
+
 
    #menu{
 	display: none;
@@ -415,16 +439,18 @@ a{
 }
 @keyframes anime{
     0%{
-        transform: scale(0.7);
+        transform: scale(0.6);
+        border-radius: 10px;
 
     }
     100%{
         transform: scale(1);
+        border-radius: 4px;
     }
 }
 ul, li:hover > ul,
 ul li ul:hover {
-    animation: anime .8s;
+    animation: anime 1s;
 }
 @media all and (max-width: 1000px){
     .ul1{
